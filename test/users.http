@@ -1,0 +1,16 @@
+Get http://localhost:8080/users/
+###
+Get http://localhost:8080/users/1
+###
+Get http://localhost:8080/users?take=3&skip=1
+###
+Post http://localhost:8080/users/register
+content-type: application/json
+
+{
+    "name": "Jane Zemlak",
+    "email": "Henderson_Gibson@yahoo.com",
+    "password": "CGN7bJakG9FP_MK",
+    "confirmPassword": "CGN7bJakG9FP_MK",
+    "role": "AUTHOR"
+}

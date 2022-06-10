@@ -1,0 +1,7 @@
+get http://localhost:8080/articles
+###
+get http://localhost:8080/articles?take=6&skip=0
+###
+get http://localhost:8080/articles/1
+###
+delete http://localhost:8080/articles/1

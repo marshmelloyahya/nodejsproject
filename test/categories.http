@@ -1,0 +1,10 @@
+Get http://localhost:8080/categories
+###
+Get http://localhost:8080/categories/1
+###
+Post http://localhost:8080/categories
+content-type: application/json
+
+{ 
+    "name": "fghjkl"
+}
